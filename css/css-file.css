@@ -7,7 +7,8 @@
     --dark-color : #0b0c10;
     --dark-color-light : #1f2833;
     --greyish-color:#c5c6c7;
-    --cyan-color:#66fcf1;
+    /* --cyan-color:#66fcf1; */
+    --cyan-color:red;
     --cyan-dark-color:#45a29e;
 
     font-family: 'Roboto Slab', serif;  
