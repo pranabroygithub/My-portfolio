@@ -94,7 +94,7 @@ body{
     color: var(--dark-color);
     padding: 60px 0px 10px 0px;
     position: relative;
-    width: max-content;
+    /* width: max-content; */
 }
 .work-heading::after{
     content: " ";
@@ -104,10 +104,6 @@ body{
     background-color: var(--dark-color);
     left: 0;
     bottom: -0.5rem;
-}
-
-.work-heading::after:hover{
-    background-color: red;
 }
 
 .project-container{
@@ -266,22 +262,35 @@ padding: 1rem;
 
 
 @media(max-width:800px){
-    #navbar{     
+    .navbar{     
         justify-content: center;
     }
-    .nav_links{
-    font-size:2em;
-    padding: 10px 20px;
+    .nav-links{
+    font-size:1.5em;
+    padding: 1rem;
     }
-    .heading_name{
+    .heading-name{
        text-align: center;
     }
-    .social_media_logo{
+    .social-media-logo{
         padding: 20px;
         max-width: 60px;
+    }
+    /* .work-heading{
+        word-break:keep-all;
+        width: auto;
+    } */
+    .contact-heading{
+        text-align: center;
+    }
+    .social-media-links{
+        gap: 0.1rem;
     }
    
 
 }
 
-/* all the extra animation work */
+
+/* @media(max-witdth:300px){
+
+} */
