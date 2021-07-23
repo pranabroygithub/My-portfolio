@@ -87,26 +87,47 @@
                 <h3 class="contact-description">Contact me</h3>
             </div>
 
-            <div id="social_media" class="social-media-links">
-
-                <a href="https://linkedin.com/in/pranab-roy-3632131ba">
-                    <img class="social-media-logo" src="/icons/linkedin-in-brands.svg" alt="linked-in">
-                </a>
+            <div class="contact-social-form-container">
 
 
-                <a href="https://github.com/freecodecamp" target="_blank">
-                    <img class="social-media-logo" src="/icons/github-brands.svg" alt="github">
-                </a>
+                <div id="social_media" class="social-media-links">
 
-                <a href="https://gmail.com">
-                    <img class="social-media-logo" src="/icons/envelope-regular.svg" alt="mail">
+                    <a href="https://linkedin.com/in/pranab-roy-3632131ba">
+                        <img class="social-media-logo" src="/icons/linkedin-in-brands.svg" alt="linked-in">
+                    </a>
 
-                </a>
 
-                <a href="https://web.whatsapp.com/">
-                    <img class="social-media-logo" src="/icons/whatsapp-brands.svg" alt="whatsapp
+                    <a href="https://github.com/freecodecamp" target="_blank">
+                        <img class="social-media-logo" src="/icons/github-brands.svg" alt="github">
+                    </a>
+
+                    <a href="https://gmail.com">
+                        <img class="social-media-logo" src="/icons/envelope-regular.svg" alt="mail">
+
+                    </a>
+
+                    <a href="https://web.whatsapp.com/">
+                        <img class="social-media-logo" src="/icons/whatsapp-brands.svg" alt="whatsapp
                 ">
-                </a>
+                    </a>
+
+                </div>
+
+                <div class="contact-form-container">
+                    <form action="" class="contact-form" name="contact" method="POST" data-netlify="true">
+                        <label for="form-user-name" class="form-label">NAME</label>
+                        <input type="text" class="field" name="user-name" id="form-user-name"
+                            placeholder="Enter your name" required>
+                        <label for="form-user-email" class="form-label">EMAIL</label>
+                        <input type="email" class="field" name="user-email" placeholder="Enter your Email address"
+                            id="form-user-email" required>
+                        <label for="form-user-message" class="form-label">MESSAGE</label>
+                        <textarea type="text" class="field form-textarea" name="user-message"
+                            placeholder="Enter your message here" id="form-user-message"></textarea>
+                        <div data-netlify-recaptcha="true"></div>
+                        <input type="submit" name="submit-button" id="" class="field form-submit-button">
+                    </form>
+                </div>
 
             </div>
 
