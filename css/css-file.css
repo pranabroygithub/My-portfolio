@@ -14,7 +14,13 @@
     font-family: 'Roboto Slab', serif;  
 
 }
-
+h1{
+        font-family: 'Tourney', cursive;
+}
+h3{
+        font-family: 'Roboto Slab', serif;  
+        font-weight: normal;
+}
 .page-wrapper{
     width: 95%;
     margin: 0 auto;
@@ -51,15 +57,15 @@ body{
     font-size:1.5em;
     text-decoration: none;
     padding: 10px 50px;
-    color: var(--cyan-dark-color);
+    color: var(--cyan-color);
 }
 .heading-name{
-    font-size: 4em;
+    font-size: 4rem;
     margin: 0px;
     color:var(--cyan-color);
 }
 .description-work{
-    color: var(--cyan-color);
+    color: var(--cyan-dark-color);
     font-size: 2em;
     margin: 0px;
 }
@@ -91,6 +97,7 @@ body{
 .work-heading{
     text-align: center;
     font-size: 2rem;
+    font-weight: 900;
     margin: 0px;
     color: var(--dark-color);
     padding: 60px 0px 10px 0px;
@@ -177,11 +184,13 @@ padding: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
  
 }
 
 .contact-heading{
-    font-size: 3em;
+
+    font-size: 2.5rem;
     color: var(--cyan-color);
 }
 .contact-description{
@@ -201,7 +210,6 @@ padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 100%; */
     gap: 3rem;
 }
 .social-media-logo{
@@ -294,21 +302,39 @@ padding: 1rem;
     }
     .heading-name{
        text-align: center;
+       font-size: 2.5rem;
     }
-    .social-media-logo{
-
+    .description-work{
+        font-size: 1.5rem;
+    }
+    .contact-section{
+        margin-top:3rem;
     }
     .contact-heading{
         text-align: center;
+        font-size: 2rem;
     }
     .social-media-links{
         flex-direction: row;
         width: 100%;
         justify-content: space-evenly;
         gap: 0.1rem;
+        margin-bottom: 2rem;
     }
     .contact-form-container{
         width: 100%;
+    }
+    .contact-form{
+        padding:0.2rem;
+    }
+    .footer-class{
+        margin-top: 4rem;
+    }
+    .footer-description{
+        padding: 1rem;
+    }
+    .footer-class::before{
+        height: 0.2rem;
     }
    
 
